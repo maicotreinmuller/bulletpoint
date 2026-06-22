@@ -1,0 +1,44 @@
+{
+  "appId": "com.muller.bulletpoint",
+  "appName": "Bullet Point",
+  "webDir": "out",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false,
+    "backgroundColor": "#00000000"
+  },
+  "ios": {
+    "contentInset": "never",
+    "allowsLinkPreview": false,
+    "backgroundColor": "#00000000",
+    "scrollEnabled": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "launchAutoHide": true,
+      "backgroundColor": "#f1f4f9",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false,
+      "splashFullScreen": true,
+      "splashImmersive": true
+    },
+    "StatusBar": {
+      "style": "Default",
+      "backgroundColor": "#00000000",
+      "overlaysWebView": true
+    },
+    "EdgeToEdge": {
+      "backgroundColor": "#00000000"
+    },
+    "Keyboard": {
+      "resize": "body",
+      "resizeOnFullScreen": true
+    }
+  }
+}
